@@ -48,6 +48,8 @@ sessions = [
     }
 ]
 
+
+
 players.each do |player| 
     Player.create(player)
 end

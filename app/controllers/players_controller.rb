@@ -14,6 +14,7 @@ class PlayersController < ApplicationController
         player = Player.new(params[:name])
         if player.save
             render json:player 
+        end
 
     end
 end
