@@ -10,4 +10,11 @@ class SessionsController < ApplicationController
 
         render json: session;
     end
+
+    def create
+        session = Session.new(score: params[:score], player_id: params[:player_id])
+        if(session.save)
+            render json: session 
+        end
+    end
 end

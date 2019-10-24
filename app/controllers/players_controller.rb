@@ -11,7 +11,7 @@ class PlayersController < ApplicationController
     end
 
     def create
-        player = Player.new(params[:name])
+        player = Player.new(name: params[:name])
         if player.save
             render json:player 
         end
