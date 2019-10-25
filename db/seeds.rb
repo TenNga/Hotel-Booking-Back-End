@@ -8,43 +8,35 @@
 
 players = [
     {
-        "id": 1,
-        "name": "Max"
+        "name": "Danny"
     },
     {
-        "id": 2,
-        "name": "Pongo"
+        "name": "Karma"
     },
     {
-        "id": 3,
+        "name": "Pong"
+    },
+    {
         "name": "Beef"
-    },
-    {
-        "id": 4,
-        "name": "Foo"
     }
 ]
 
 sessions = [
     {
-        "id":1,
-        "score":32,
+        "score":999,
         "player_id":1
     },
     {
-        "id":2,
-        "score":10,
-        "player_id":1
-    },
-    {
-        "id":3,
-        "score":392,
+        "score":777,
         "player_id":2
     },
     {
-        "id":4,
-        "score":4,
+        "score":505,
         "player_id":3
+    },
+    {
+        "score":400,
+        "player_id":4
     }
 ]
 
